@@ -1,0 +1,62 @@
+#cabeçalho {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 0;
+}
+
+ul {
+  background-color: pink;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  display: flex;
+  justify-content: space-around;
+  display: inline block;
+    
+}
+
+#páginas{
+    text-align: center;
+}
+
+
+.container{
+ 
+
+
+}
+
+footer {
+        text-align: center;
+        padding: 5px;
+        background-color: pink;
+        color: black;
+}
+   
+p{
+    background-color: black;
+    color: pink;
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+ul{
+    background-color: pink;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    display: inline block;
+    
+}
+
+table{
+
+}
