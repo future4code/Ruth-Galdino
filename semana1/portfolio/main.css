@@ -1,0 +1,26 @@
+
+body{
+    width: 100px;
+    height: 100%;
+    margin-bottom: 0%;
+    background-image: url(imagem/arte\ abstrata.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+    color: white;
+ }
+
+ .cabeçalho{
+     background-color: rgb(137, 137, 243);
+     height: 100px;
+     margin-bottom: 0%;
+     width: 100vw ;
+
+ }
+
+ p{
+     text-align: center;
+ }
+
+
+ 
