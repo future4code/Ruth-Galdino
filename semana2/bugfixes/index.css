@@ -23,8 +23,12 @@ input {
 
 button:focus {
     color: white;
+  
 }
 
+button:hover{
+    background: green;
+}
 img {
     width: 80px;
 
@@ -49,6 +53,7 @@ div img {
 
 .botao-amarelo:hover {
     background-color: #c44f00;
+    
 }
 
 .container {
@@ -114,7 +119,11 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+    cursor: pointer;
 }
+
+
+
 
 .container-do-search {
     margin-top: 20px;
