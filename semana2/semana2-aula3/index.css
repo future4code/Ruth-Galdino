@@ -42,7 +42,6 @@ div {
     margin-top: 10px;
     width: 350px;
     height: 150px;
-    /*border: 1px  black;*/
     display: grid;
     justify-items: center;
     align-items: center;
@@ -116,44 +115,48 @@ div {
 
 @media screen and (min-width: 400px) and (max-width: 500px) {
     #container {
-        display: grid;
-        margin-top: 0;
-        margin-bottom: 0;
+        display: inline;
+       /* margin-top: 0;
+        margin-bottom: 0;*/
         /*grid-template-columns: 1fr;*/
         grid-template-rows: repeat(5, 20vh);
         grid-template-columns: 1fr;
+       
+        
         
 
     }
 
      #main-container{
-         display: grid;
-         margin-top: 0;
-         margin-bottom: 0;
+         display: inline;
+        /* margin-top: 0;
+         margin-bottom: 0;*/
          color: red;
          align-items: start;
          justify-content: center;
-         height: 30vh;
          grid-template-rows: repeat(5, 20vh);
          grid-template-columns: 1fr;
+        
          
         }
 
         #item{
-            display: grid;
+            display: inline;
             color: black;
             grid-template-rows: repeat(5, 20vh);
             grid-template-columns: 1fr;
             
+            
 
         }
     #footer{
-        display: grid;
+        display: inline;
         color: white;
         justify-content: center;
         align-items: start;
         grid-template-rows: repeat(5, 20vh);
         grid-template-columns: 1fr;
+        
         
        
     }
