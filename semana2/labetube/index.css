@@ -43,14 +43,24 @@ main{
     margin-top: 30px;
     flex-direction: row;
     flex-wrap:wrap;
+    text-align: center;
 
 }
 
 h1{
-    color: white;
-    display: flex;
-
+   color: black;
+   display: flex;
+   background-color: white;
+   border-radius: 20px;
+ 
+  
 }
+   
+
+
+.div{
+}
+
 .flex-container{
     padding-top: 100px;
     border:solid white;
@@ -61,6 +71,7 @@ h1{
     flex-flow: row wrap;
     justify-content: center;
     margin-bottom: 100px;
+    justify-content: space-between;
     
 }
 
@@ -73,6 +84,7 @@ h1{
     flex-flow: row wrap;
     justify-content: center;
     margin-bottom: 100px;
+    justify-content: space-between;
 }
 
 
