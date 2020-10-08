@@ -54,12 +54,16 @@ for (let i = 0; i < divisaOriginal.length; i = i + 1) {
 
  //****************************** EXERCÍCIO 3.d) *************************
 
+
  /*const stringsArray = ["30", "40", '50', '60', '70', '80', '90']
+
  let texto = ''
 for (let string of stringsArray){
     texto = "o elemento do índex 0 é " + ''  + string
     texto = "o elemento do índex 1 é " + ''  + string
     console.log(texto)
+
 }*/
+
 
 

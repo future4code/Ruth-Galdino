@@ -1,0 +1,228 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: #F2CB9B;
+    padding: 10px;
+    box-shadow: 5px 8px 13px #888888;
+    margin-top: 0;
+   
+}
+    
+
+
+.logo{
+    border-radius: 0px;
+    width: 90px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 0px;
+
+}
+
+    
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 70px;
+    
+}
+
+
+a{
+    display: flex;
+    text-decoration: none;
+    white-space: pre;
+    color: #FF914D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+ a:hover{
+     background-color: white;
+     height: 30px;
+ }
+
+button{
+    background-color: white;
+    color: #F2884B;
+    border: solid #F2884B;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+button:hover {
+    background-color: #F29472;
+    color: white;
+  }
+
+#right-side{
+    float: right;
+    margin-top: 90px;
+    margin-right: 60px;
+    
+}
+
+h1{
+    display: flex;
+    margin-top: 100px;
+    color: #F29B30;
+    font-family: monospace;
+    margin-left: 70px;
+    text-decoration: underline;
+    
+}
+
+h2{
+    display: flex;
+    margin-top: 2px;
+    color: rgb(62, 172, 62);
+    font-family: monospace;
+    
+}
+#botao{
+    display: flex;
+   /* justify-content: center;*/
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+h2{
+    display: flex;
+    font-family: monospace;
+    color: rgb(78, 211, 78);
+
+}
+
+#mais-informaçoes{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    background-color: #F2CB9B;
+    margin: 0;
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+
+.cartao{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+h4{
+    display: flex; 
+    color:   black;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.digital{
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.segurança{
+    display: flex;
+    margin-left: 5px;
+}
+
+#contato{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(231, 216, 216);
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    
+
+}
+
+label{
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+input{
+    display: flex;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+h6{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left:800px;
+    
+}
+
+#Atendimento{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(218, 213, 213);
+}
+
+h7{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.instagram{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 60px;
+    margin-left: 10px;
+    cursor: pointer
+
+}
+
+.mais{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h8{
+    display: flex;
+   margin-left: 800px;
+    font-size: 30px;
+}
+.fotos{
+    display: flex;
+    justify-content: flex-end;
+   
+  
+}
