@@ -1,5 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
+import styled from "styled-components";
+
+
 
 
 const Home = () => {
@@ -9,25 +12,27 @@ const Home = () => {
         history.push("/Login");
     };
 
-    const goToContato = () => {
-        history.push("/Contato");
+    const goToCadastrar = () => {
+        history.push("/Cadastrar");
     };
 
-    const goToCriarViagem = () => {
+    /*const goToCriarViagem = () => {
         history.push("/criarViagem");
-    }; 
+    }; */
     
 
    
 
   return (
-    <div>
-        <p>Home</p>
-        <button onClick={goToLogin}>goToLogin</button>
-        <button onClick={goToContato}>Contato</button>
-        <button onClick={goToCriarViagem}>Criar viagem</button>
-     
-    </div>
+    <div className="titulo">
+        <p><strong>LabeXis</strong></p>
+       
+       
+        <button onClick={goToLogin}>Área do administrador</button>
+        <button onClick={goToCadastrar}>Quero me candidatar</button>
+        
+     </div>
+   
   );
 };
 

@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
         const history = useHistory();
 
         const goToHome = () => {
-            history.push("/Home");
+            history.push("/");
         }; 
     return(
         <div>
