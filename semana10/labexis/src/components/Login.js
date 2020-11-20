@@ -1,56 +1,57 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import styled from "styled-components";
-import './styled.css';
 
-/*const Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+
+const ContainerLogin = styled.div`
+  width: 500px;
+  height: 500px;
+	background: linear-gradient(purple, darkblue);
+	border-radius: 15px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+	align-items: center;
+  line-height: 50px; 
+  box-shadow: 5px 5px 8px 10px #888888;
+
 `;
 
-const Form = styled.form`
-  width: 400px;
-  background: #fff;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  `;
-  const P = styled.p`
-    color: #ff3333;
-    margin-bottom: 15px;
-    border: 1px solid #ff3333;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-  `;
-  const Input = styled.input`
-    flex: 1;
-    height: 46px;
-    margin-bottom: 15px;
-    padding: 0 20px;
-    color: #777;
-    font-size: 15px;
-    width: 100%;
-    border: 1px solid #ddd;
-    &::placeholder {
-      color: #999;
-    `;
-  
-  const Button = styled.button `
-    color: #fff;
-    font-size: 16px;
-    background: #fc6963;
-    height: 56px;
-    border: 0;
-    border-radius: 5px;
-    width: 100%;
-  
-  `;
-*/
+const Input = styled.input`
+width: 80%;
+margin: 0 auto;
+padding: 15px;
+border: none;
+margin-bottom: 10px;
+border-radius: 50px;
+box-shadow: 5px 3px 3px 3px #888888;
+
+`;
+
+const Button = styled.button`
+padding: 10px;
+width: 60%;
+margin: 0 auto;
+margin-top: 20px;
+border-radius: 50px;
+border: 1px solid black;
+text-transform: uppercase;
+font-weight: 700;
+color: #fff;
+background: linear-gradient(to right, orangered, orange);
+cursor: pointer;
+:hover {
+  color: black;
+`;
+
+const P = styled.p`
+font-size: 40px;
+
+`;
 
 
 const Login = () => {
@@ -60,32 +61,33 @@ const Login = () => {
       history.push("/");
     };
   
-    const goToCadastrar = () => {
-      history.push("/cadastrar");
-    };
+    
+
+    const goToCriarViagem = () => {
+      history.push("/criarViagem");
+  }; 
   
     return (
-      <div className="Login">
+      <ContainerLogin>
         
-           <p>Login</p>
+           <P>Login</P>
 
-       <br/> 
        <br/>
 
        
-        <input placeholder="Email"></input>             
-        <input placeholder="Senha"></input>
+        <Input placeholder="Email"></Input>             
+        <Input placeholder="Senha"></Input>
         
-        <br/>
         
-        <button onClick={goToHome}>Home</button>
-        <button onClick={goToCadastrar}>Cadastrar</button>
+        <Button onClick={goToCriarViagem}>Entrar</Button>
+        
+        
        
         
        
        
 
-      </div>
+      </ContainerLogin>
     );
   };
 
